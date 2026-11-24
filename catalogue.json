@@ -52,7 +52,8 @@
     "spaces/workflows/content-project/template.json",
     "spaces/workflows/software-project/template.json",
     "spaces/workflows/event-project/template.json",
-    "spaces/workflows/physical-project/template.json"
+    "spaces/workflows/physical-project/template.json",
+    "spaces/project-management/tasks/template.json"
   ],
   "collections": [
     "collections/project-management.json",

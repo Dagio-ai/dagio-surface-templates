@@ -118,6 +118,10 @@
     {
       "kind": "space-template",
       "id": "costs"
+    },
+    {
+      "kind": "space-template",
+      "id": "tasks"
     }
   ]
 }
