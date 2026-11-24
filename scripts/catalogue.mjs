@@ -93,6 +93,19 @@ export async function readCatalogue(root) {
     collections.push(collection);
   }
   if (grouped.size !== templates.length) throw Error('Every template needs one collection');
+  const integrations = [];
+  for (const path of manifest.integrations ?? []) {
+    const integration = await read(path);
+    if (
+      path !== `integrations/${integration.id}.json` ||
+      new Set(integration.templates.map(templateKey)).size !== integration.templates.length
+    )
+      throw Error('Invalid integration selection');
+    for (const ref of integration.templates)
+      if (!identities.has(templateKey(ref)) || ref.kind !== 'surface-template')
+        throw Error('Unknown integration Surface');
+    integrations.push(integration);
+  }
   // Reject authored JSON omitted from the manifest instead of silently dropping new templates.
   async function walk(directory) {
     const values = [];
@@ -104,7 +117,12 @@ export async function readCatalogue(root) {
     }
     return values;
   }
-  for (const directory of ['surfaces', 'spaces', 'collections'])
+  for (const directory of [
+    'surfaces',
+    'spaces',
+    'collections',
+    ...(manifest.integrations?.length ? ['integrations'] : []),
+  ])
     for (const path of await walk(directory))
       if (!files.has(path)) throw Error('Unregistered catalogue file: ' + path);
   const licence = await readFile(resolve(root, 'LICENSE'));
@@ -116,7 +134,7 @@ export async function readCatalogue(root) {
   files.set('LICENSE', digest(licence));
   const sourceManifest = Object.fromEntries([...files].sort(([a], [b]) => a.localeCompare(b)));
   return {
-    catalogue: { ...manifest, templates, collections },
+    catalogue: { ...manifest, templates, collections, integrations },
     sourceManifest,
     sourceHash: digest(encode(sourceManifest)),
   };

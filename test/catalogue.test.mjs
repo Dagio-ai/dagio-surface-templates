@@ -21,8 +21,9 @@ test('builds the complete catalogue deterministically and keeps MIT/Dagio.ai pro
 test('rejects omissions, duplicate identities, escaping paths and mismatched publication licences', async (t) => {
   const directory = await mkdtemp(join(tmpdir(), 'dagio-template-test-'));
   t.after(() => rm(directory, { recursive: true, force: true }));
-  for (const path of ['catalogue.json', 'collections', 'surfaces', 'spaces', 'LICENSE'])
+  for (const path of ['catalogue.json', 'collections', 'surfaces', 'spaces', 'integrations', 'LICENSE'])
     await cp(join(root, path), join(directory, path), { recursive: true });
+  await readCatalogue(directory);
   const manifest = JSON.parse(await readFile(join(directory, 'catalogue.json')));
   for (const altered of [
     { ...manifest, templates: [...manifest.templates, manifest.templates[0]] },

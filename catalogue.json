@@ -47,5 +47,6 @@
     "spaces/project-management/deliverables/template.json",
     "spaces/project-management/costs/template.json"
   ],
-  "collections": ["collections/project-management.json", "collections/work-documentation.json"]
+  "collections": ["collections/project-management.json", "collections/work-documentation.json"],
+  "integrations": ["integrations/surface-core.json"]
 }

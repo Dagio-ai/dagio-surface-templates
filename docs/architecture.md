@@ -60,3 +60,22 @@ artifact, useful description, instructions and licence. Collections curate exact
 reject unindexed sources, duplicate identities, traversal and mismatched listing provenance.
 Published versions are immutable. Revisions use a new semantic version and retain source history.
 Market acceptance, authorization and installed behavior are verified separately from repository CI.
+
+## Task detail beneath steps
+
+A step represents a work package, outcome or deliverable. Detailed tasks are ordinary records
+in a linked Data Space, with their own Fields, owners, dates, statuses and evidence. A project
+may share a task register and filter it per step. Optional dedicated registers retain the same
+native ownership. A task is not another execution step or an embedded private copy of a record.
+
+The accepted runtime target expands task children beneath steps in applicable views. Use native
+Graph identities and an admitted step-to-task relation, preserve reference/record permissions,
+and load visible child cohorts progressively. Filters, sorting, reporting and aggregates cover
+the complete admitted task dataset. Record/source writers own edits, while Workmap retains
+step execution, dependencies, decisions and completion. Task progress is evidence for step
+assessment; it must not silently mark acceptance or complete a step.
+
+Qualification must cover 250 steps and 10,000 task records, including reopen, filtered child
+visibility, complete aggregates, permission changes and bounded transport/rendering. This is
+an explicit runtime requirement; the initial catalogue does not claim to deliver that relation
+or view behavior, and no text Field is used to fake a native step link.

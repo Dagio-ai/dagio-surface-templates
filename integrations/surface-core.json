@@ -1,0 +1,90 @@
+{
+  "templates": [
+    {
+      "id": "work-notes",
+      "kind": "surface-template"
+    },
+    {
+      "id": "task-details",
+      "kind": "surface-template"
+    },
+    {
+      "id": "task-summary",
+      "kind": "surface-template"
+    },
+    {
+      "id": "project-brief",
+      "kind": "surface-template"
+    },
+    {
+      "id": "action-plan",
+      "kind": "surface-template"
+    },
+    {
+      "id": "issue-report",
+      "kind": "surface-template"
+    },
+    {
+      "id": "procedure",
+      "kind": "surface-template"
+    },
+    {
+      "id": "review",
+      "kind": "surface-template"
+    },
+    {
+      "id": "checklist",
+      "kind": "surface-template"
+    },
+    {
+      "id": "analysis",
+      "kind": "surface-template"
+    },
+    {
+      "id": "meeting-minutes",
+      "kind": "surface-template"
+    },
+    {
+      "id": "needs-assessment",
+      "kind": "surface-template"
+    },
+    {
+      "id": "research",
+      "kind": "surface-template"
+    },
+    {
+      "id": "specification",
+      "kind": "surface-template"
+    },
+    {
+      "id": "decision",
+      "kind": "surface-template"
+    },
+    {
+      "id": "code-review",
+      "kind": "surface-template"
+    },
+    {
+      "id": "test-report",
+      "kind": "surface-template"
+    },
+    {
+      "id": "delivery-report",
+      "kind": "surface-template"
+    },
+    {
+      "id": "workshop",
+      "kind": "surface-template"
+    },
+    {
+      "id": "content-brief",
+      "kind": "surface-template"
+    },
+    {
+      "id": "project-scope",
+      "kind": "surface-template"
+    }
+  ],
+  "description": "Pinned default Surface authoring library; the full professional catalogue is distributed through Marketplace.",
+  "id": "surface-core"
+}

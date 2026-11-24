@@ -15,6 +15,7 @@
   "exports": {
     "./catalogue": "./dist/catalogue.json",
     "./surfaces": "./dist/surfaces.json",
+    "./builtin-surfaces": "./dist/builtin-surfaces.json",
     "./spaces": "./dist/spaces.json",
     "./collections": "./dist/collections.json"
   },
@@ -25,7 +26,8 @@
     "collections",
     "catalogue.json",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "integrations"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",

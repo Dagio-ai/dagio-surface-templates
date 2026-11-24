@@ -15,9 +15,13 @@ export async function build(root) {
       presentation: { glyph: t.presentation.glyph, tone: t.presentation.tone },
     }));
   const spaces = catalogue.templates.filter((t) => t.kind === 'space-template');
+  const integration = catalogue.integrations.find((item) => item.id === 'surface-core');
+  if (!integration) throw Error('Missing Surface Core integration selection');
+  const builtin = integration.templates.map((ref) => surfaces.find((item) => item.id === ref.id));
   const values = {
     'catalogue.json': catalogue,
     'surfaces.json': surfaces,
+    'builtin-surfaces.json': builtin,
     'spaces.json': spaces,
     'collections.json': catalogue.collections,
     'source-manifest.json': { schemaVersion: 1, sourceHash, files: sourceManifest },
