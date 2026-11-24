@@ -1,0 +1,327 @@
+{
+  "id": "budget-plan",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Budget plan",
+    "description": "Funding limit and currency · Estimate basis and assumptions · Cost breakdown and contingency · Commitments and actual costs · Remaining estimate and forecast · Variance thresholds and approval",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-budget-plan",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ClipboardList",
+    "tone": "blue",
+    "headings": [
+      "Funding limit and currency",
+      "Estimate basis and assumptions",
+      "Cost breakdown and contingency",
+      "Commitments and actual costs",
+      "Remaining estimate and forecast",
+      "Variance thresholds and approval"
+    ]
+  },
+  "artifact": {
+    "id": "budget-plan",
+    "title": "Budget plan",
+    "description": "Funding limit and currency · Estimate basis and assumptions · Cost breakdown and contingency · Commitments and actual costs · Remaining estimate and forecast · Variance thresholds and approval",
+    "icon": "FileText",
+    "template": "budget-plan",
+    "fields": [
+      {
+        "key": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "key": "reviewedOn",
+        "label": "Reviewed on",
+        "type": "date"
+      }
+    ],
+    "instructions": "Link typed exact Decimal budget data and native financial reports. Declare currency and whether remaining estimates include commitments. Unknown amounts are not zero; never claim on-track health from incomplete data. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 1180,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "3cd0a7e5-864a-44c3-94ca-1df9faf3c726",
+              "kind": "frame",
+              "name": "Funding limit and currency",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Funding limit and currency",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "592a5088-038f-4159-a40d-9aca536fbb56",
+              "kind": "frame",
+              "name": "Estimate basis and assumptions",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Estimate basis and assumptions",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "a9c169c3-5688-4425-8a1a-fbd945fdc3ab",
+              "kind": "frame",
+              "name": "Cost breakdown and contingency",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Cost breakdown and contingency",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "a7f84e6f-381a-4d78-8b09-8827633d939e",
+              "kind": "frame",
+              "name": "Commitments and actual costs",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Commitments and actual costs",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "56b5838e-1cc0-4da2-948a-bb88d9ffbd07",
+              "kind": "frame",
+              "name": "Remaining estimate and forecast",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Remaining estimate and forecast",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "ada7f531-a989-43f0-83ab-96023c6e8e25",
+              "kind": "frame",
+              "name": "Variance thresholds and approval",
+              "parentId": null,
+              "x": 0,
+              "y": 1000,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Variance thresholds and approval",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

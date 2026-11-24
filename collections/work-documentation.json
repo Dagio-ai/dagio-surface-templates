@@ -1,0 +1,59 @@
+{
+  "id": "work-documentation",
+  "title": "Work documentation",
+  "description": "Reusable documents for everyday creative, business and technical work.",
+  "templates": [
+    {
+      "kind": "surface-template",
+      "id": "work-notes"
+    },
+    {
+      "kind": "surface-template",
+      "id": "task-details"
+    },
+    {
+      "kind": "surface-template",
+      "id": "task-summary"
+    },
+    {
+      "kind": "surface-template",
+      "id": "issue-report"
+    },
+    {
+      "kind": "surface-template",
+      "id": "procedure"
+    },
+    {
+      "kind": "surface-template",
+      "id": "analysis"
+    },
+    {
+      "kind": "surface-template",
+      "id": "needs-assessment"
+    },
+    {
+      "kind": "surface-template",
+      "id": "research"
+    },
+    {
+      "kind": "surface-template",
+      "id": "code-review"
+    },
+    {
+      "kind": "surface-template",
+      "id": "test-report"
+    },
+    {
+      "kind": "surface-template",
+      "id": "delivery-report"
+    },
+    {
+      "kind": "surface-template",
+      "id": "workshop"
+    },
+    {
+      "kind": "surface-template",
+      "id": "content-brief"
+    }
+  ]
+}

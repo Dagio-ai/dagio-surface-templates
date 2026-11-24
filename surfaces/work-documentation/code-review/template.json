@@ -1,0 +1,244 @@
+{
+  "id": "code-review",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "work-documentation",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Code review",
+    "description": "Scope · Observations · Findings · Recommendations",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "knowledge",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-code-review",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "CodeXml",
+    "tone": "blue",
+    "headings": ["Scope", "Observations", "Findings", "Recommendations"]
+  },
+  "artifact": {
+    "id": "code-review",
+    "title": "Code review",
+    "description": "Scope · Observations · Findings · Recommendations",
+    "icon": "FileText",
+    "template": "code-review",
+    "fields": [
+      {
+        "key": "reference",
+        "label": "Source reference",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "reviewer",
+        "label": "Reviewer",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "reviewedOn",
+        "label": "Reviewed on",
+        "type": "date",
+        "required": false
+      }
+    ],
+    "instructions": "Identify the exact code revision or change reviewed. Describe actionable findings with locations and distinguish observed defects from unverified risks. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 780,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "fbc51819-c9ae-4de8-aaed-fecbc08f2d9d",
+              "kind": "frame",
+              "name": "Scope",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Scope",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "9bb935ad-69a7-458f-a416-920b51b3ed49",
+              "kind": "frame",
+              "name": "Observations",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Observations",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "ef2f76b2-d6d8-4c62-868a-d7c026f14c4c",
+              "kind": "frame",
+              "name": "Findings",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Findings",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "5e5d92f3-ad7a-42ba-9ffa-b9e19e043a18",
+              "kind": "frame",
+              "name": "Recommendations",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Recommendations",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

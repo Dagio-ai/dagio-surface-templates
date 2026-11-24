@@ -1,0 +1,327 @@
+{
+  "id": "project-handover",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Project handover",
+    "description": "Delivered assets and canonical links · Operating responsibilities · Instructions and support · Training and access · Open items and residual risks · Handover confirmation",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-project-handover",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ClipboardList",
+    "tone": "blue",
+    "headings": [
+      "Delivered assets and canonical links",
+      "Operating responsibilities",
+      "Instructions and support",
+      "Training and access",
+      "Open items and residual risks",
+      "Handover confirmation"
+    ]
+  },
+  "artifact": {
+    "id": "project-handover",
+    "title": "Project handover",
+    "description": "Delivered assets and canonical links · Operating responsibilities · Instructions and support · Training and access · Open items and residual risks · Handover confirmation",
+    "icon": "FileText",
+    "template": "project-handover",
+    "fields": [
+      {
+        "key": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "key": "reviewedOn",
+        "label": "Reviewed on",
+        "type": "date"
+      }
+    ],
+    "instructions": "Verify that the recipient can use the actual delivered resources. Keep unresolved access, installation and operational checks explicit. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 1180,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "88a7bedb-6c9c-4360-ba32-226beb77300e",
+              "kind": "frame",
+              "name": "Delivered assets and canonical links",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Delivered assets and canonical links",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "62c34a55-86ca-4486-b3d6-48585650d392",
+              "kind": "frame",
+              "name": "Operating responsibilities",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Operating responsibilities",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "45ec093b-5b1c-41f1-a338-eb007ce24365",
+              "kind": "frame",
+              "name": "Instructions and support",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Instructions and support",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "936a56aa-4322-452f-96cc-1e9a177f406f",
+              "kind": "frame",
+              "name": "Training and access",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Training and access",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "132a61ad-0d5c-41c4-a4d8-9b26bc11791b",
+              "kind": "frame",
+              "name": "Open items and residual risks",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Open items and residual risks",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "ea6e0e1b-0c8a-4283-8267-74d96881c2b9",
+              "kind": "frame",
+              "name": "Handover confirmation",
+              "parentId": null,
+              "x": 0,
+              "y": 1000,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Handover confirmation",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

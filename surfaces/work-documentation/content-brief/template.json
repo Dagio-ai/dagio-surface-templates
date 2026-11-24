@@ -1,0 +1,244 @@
+{
+  "id": "content-brief",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "work-documentation",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Content brief",
+    "description": "Audience · Objective · Key messages · Structure",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "knowledge",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-content-brief",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "Megaphone",
+    "tone": "sand",
+    "headings": ["Audience", "Objective", "Key messages", "Structure"]
+  },
+  "artifact": {
+    "id": "content-brief",
+    "title": "Content brief",
+    "description": "Audience · Objective · Key messages · Structure",
+    "icon": "FileText",
+    "template": "content-brief",
+    "fields": [
+      {
+        "key": "owner",
+        "label": "Owner",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "channel",
+        "label": "Channel",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "dueDate",
+        "label": "Due date",
+        "type": "date",
+        "required": false
+      }
+    ],
+    "instructions": "Define the audience, purpose, key messages and intended structure before producing the content. State tone and channel constraints where relevant. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 780,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "dbd1f8b8-4364-4362-96b9-fded7078f9d3",
+              "kind": "frame",
+              "name": "Audience",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Audience",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "7ea95db2-7db7-417f-aeb1-9a6f582d6e07",
+              "kind": "frame",
+              "name": "Objective",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Objective",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "2368d071-1b0b-4803-ae49-7d08994ac087",
+              "kind": "frame",
+              "name": "Key messages",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Key messages",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "6ace3a5a-ae22-456d-aade-14c68c6f8254",
+              "kind": "frame",
+              "name": "Structure",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Structure",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

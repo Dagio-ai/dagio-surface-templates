@@ -1,0 +1,280 @@
+{
+  "id": "meeting-minutes",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Meeting minutes",
+    "description": "Meeting details · Attendees · Discussion · Decisions · Follow-up",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-meeting-minutes",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "UsersRound",
+    "tone": "mint",
+    "headings": ["Meeting details", "Attendees", "Discussion", "Decisions", "Follow-up"]
+  },
+  "artifact": {
+    "id": "meeting-minutes",
+    "title": "Meeting minutes",
+    "description": "Meeting details · Attendees · Discussion · Decisions · Follow-up",
+    "icon": "FileText",
+    "template": "meeting-minutes",
+    "fields": [
+      {
+        "key": "meetingDate",
+        "label": "Meeting date",
+        "type": "date",
+        "required": true
+      },
+      {
+        "key": "location",
+        "label": "Location",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "instructions": "Record what was discussed and decided. Identify follow-up owners and dates only when agreed; do not confuse the meeting date with the date these notes were written. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 980,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "1a5eb15d-c8ce-4e5c-b632-f9c7d667e905",
+              "kind": "frame",
+              "name": "Meeting details",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Meeting details",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "302bd7c5-cd35-4ed1-8d45-368617000a9e",
+              "kind": "frame",
+              "name": "Attendees",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Attendees",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "0ea76c1b-47c5-448b-bcb4-b4328386fd09",
+              "kind": "frame",
+              "name": "Discussion",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Discussion",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "2c6b8a65-e0bc-4a15-873e-21156da3bc7d",
+              "kind": "frame",
+              "name": "Decisions",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Decisions",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "c30f0051-2e5d-45c5-9a0f-3123d8c5f0fd",
+              "kind": "frame",
+              "name": "Follow-up",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Follow-up",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

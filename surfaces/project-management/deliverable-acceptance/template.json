@@ -1,0 +1,332 @@
+{
+  "id": "deliverable-acceptance",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Deliverable acceptance",
+    "description": "Deliverable and version · Agreed acceptance criteria · Verification evidence · Exceptions and residual issues · Acceptance decision · Approver and decision source",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-deliverable-acceptance",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ClipboardList",
+    "tone": "blue",
+    "headings": [
+      "Deliverable and version",
+      "Agreed acceptance criteria",
+      "Verification evidence",
+      "Exceptions and residual issues",
+      "Acceptance decision",
+      "Approver and decision source"
+    ]
+  },
+  "artifact": {
+    "id": "deliverable-acceptance",
+    "title": "Deliverable acceptance",
+    "description": "Deliverable and version · Agreed acceptance criteria · Verification evidence · Exceptions and residual issues · Acceptance decision · Approver and decision source",
+    "icon": "FileText",
+    "template": "deliverable-acceptance",
+    "fields": [
+      {
+        "key": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "key": "reference",
+        "label": "Deliverable reference",
+        "type": "text"
+      },
+      {
+        "key": "reviewedOn",
+        "label": "Reviewed on",
+        "type": "date"
+      }
+    ],
+    "instructions": "Record actual acceptance by an authorized person. A successful build or a prepared deliverable does not imply user acceptance. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 1180,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "02834610-11da-4434-af40-35caeaecb9dd",
+              "kind": "frame",
+              "name": "Deliverable and version",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Deliverable and version",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "0762774d-4795-42f5-a082-e4615de562f6",
+              "kind": "frame",
+              "name": "Agreed acceptance criteria",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Agreed acceptance criteria",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "72595ba8-4671-4903-bc87-949628b67018",
+              "kind": "frame",
+              "name": "Verification evidence",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Verification evidence",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "f027050d-0e88-4cf2-9621-9f3c1b530ce6",
+              "kind": "frame",
+              "name": "Exceptions and residual issues",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Exceptions and residual issues",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "64fe6761-69e6-496e-b9f9-cf460793b923",
+              "kind": "frame",
+              "name": "Acceptance decision",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Acceptance decision",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "f6f63488-8763-4f9f-a738-488146356438",
+              "kind": "frame",
+              "name": "Approver and decision source",
+              "parentId": null,
+              "x": 0,
+              "y": 1000,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Approver and decision source",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

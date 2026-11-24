@@ -1,0 +1,327 @@
+{
+  "id": "resource-plan",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Resource and responsibility plan",
+    "description": "Roles and responsibilities · Responsibility matrix · Capacity and availability · Skills and equipment · Constraints and dependencies · Escalation and changes",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-resource-plan",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ClipboardList",
+    "tone": "blue",
+    "headings": [
+      "Roles and responsibilities",
+      "Responsibility matrix",
+      "Capacity and availability",
+      "Skills and equipment",
+      "Constraints and dependencies",
+      "Escalation and changes"
+    ]
+  },
+  "artifact": {
+    "id": "resource-plan",
+    "title": "Resource and responsibility plan",
+    "description": "Roles and responsibilities · Responsibility matrix · Capacity and availability · Skills and equipment · Constraints and dependencies · Escalation and changes",
+    "icon": "FileText",
+    "template": "resource-plan",
+    "fields": [
+      {
+        "key": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "key": "reviewedOn",
+        "label": "Reviewed on",
+        "type": "date"
+      }
+    ],
+    "instructions": "Record agreed accountability, capacity and commitments. Do not invent assignments or availability. Link native People Fields and the relevant steps. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 1180,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "a8545b62-b0a0-4cf4-9ab5-6b2a88ff95af",
+              "kind": "frame",
+              "name": "Roles and responsibilities",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Roles and responsibilities",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "9c7c08ea-16fe-48ff-a9a3-654fcf6a2dfe",
+              "kind": "frame",
+              "name": "Responsibility matrix",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Responsibility matrix",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "e53c92a5-d038-42cd-9409-b043c0b19684",
+              "kind": "frame",
+              "name": "Capacity and availability",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Capacity and availability",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "c039391c-9fc0-480b-8b7b-dd05da5c4374",
+              "kind": "frame",
+              "name": "Skills and equipment",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Skills and equipment",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "94b9a79e-00df-4ad5-a6fc-420cf9a3d9f0",
+              "kind": "frame",
+              "name": "Constraints and dependencies",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Constraints and dependencies",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "5cb9c073-3394-4b85-b567-5fa5375edfd8",
+              "kind": "frame",
+              "name": "Escalation and changes",
+              "parentId": null,
+              "x": 0,
+              "y": 1000,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Escalation and changes",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

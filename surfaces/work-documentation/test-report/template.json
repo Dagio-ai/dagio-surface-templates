@@ -1,0 +1,245 @@
+{
+  "id": "test-report",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "work-documentation",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Test report",
+    "description": "Scope · Scenarios · Results · Issues",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "knowledge",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-test-report",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ClipboardCheck",
+    "tone": "mint",
+    "headings": ["Scope", "Scenarios", "Results", "Issues"]
+  },
+  "artifact": {
+    "id": "test-report",
+    "title": "Test report",
+    "description": "Scope · Scenarios · Results · Issues",
+    "icon": "FileText",
+    "template": "test-report",
+    "fields": [
+      {
+        "key": "reference",
+        "label": "Source reference",
+        "type": "text",
+        "required": true
+      },
+      {
+        "key": "testedOn",
+        "label": "Tested on",
+        "type": "date",
+        "required": true
+      },
+      {
+        "key": "outcome",
+        "label": "Outcome",
+        "type": "choice",
+        "required": true,
+        "options": ["Passed", "Partially passed", "Failed", "Not executed"]
+      }
+    ],
+    "instructions": "Identify the tested version and environment. Report executed scenarios and observed results, keeping unexecuted checks explicit. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 780,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "be525bff-5fc9-4e08-96cf-e7a31eefd282",
+              "kind": "frame",
+              "name": "Scope",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Scope",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "cec8b56b-8adb-4390-b148-a772d8169adb",
+              "kind": "frame",
+              "name": "Scenarios",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Scenarios",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "a7a65db0-c04b-4369-b4ab-657f2c29ac16",
+              "kind": "frame",
+              "name": "Results",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Results",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "2752a044-5d39-4e94-b5cf-b29ca9cb48ca",
+              "kind": "frame",
+              "name": "Issues",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Issues",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

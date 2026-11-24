@@ -1,0 +1,288 @@
+{
+  "id": "issue-report",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "work-documentation",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Issue report",
+    "description": "Problem · Context · Impact · Observations · Expected result",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "knowledge",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-issue-report",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "CircleAlert",
+    "tone": "sand",
+    "headings": ["Problem", "Context", "Impact", "Observations", "Expected result"]
+  },
+  "artifact": {
+    "id": "issue-report",
+    "title": "Issue report",
+    "description": "Problem · Context · Impact · Observations · Expected result",
+    "icon": "FileText",
+    "template": "issue-report",
+    "fields": [
+      {
+        "key": "severity",
+        "label": "Severity",
+        "type": "choice",
+        "required": true,
+        "options": ["Low", "Medium", "High", "Critical"],
+        "defaultValue": "Medium"
+      },
+      {
+        "key": "reportedOn",
+        "label": "Reported on",
+        "type": "date",
+        "required": true
+      },
+      {
+        "key": "reference",
+        "label": "Source reference",
+        "type": "text",
+        "required": false
+      }
+    ],
+    "instructions": "Record a problem and reproducible observations. Distinguish symptoms, evidence and hypotheses; do not claim a root cause or resolution without verification. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 980,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "24980a7d-bb75-482d-bb61-b017dc57e59e",
+              "kind": "frame",
+              "name": "Problem",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Problem",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "0e805b17-f669-4ed9-bc16-eaa664086acf",
+              "kind": "frame",
+              "name": "Context",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Context",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "1580631a-8918-4c9b-b09e-3c00bfa0cd11",
+              "kind": "frame",
+              "name": "Impact",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Impact",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "7f9694fb-1d84-4140-982b-f191af9d5615",
+              "kind": "frame",
+              "name": "Observations",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Observations",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "f617ecf7-592f-44a5-a4de-a6e95d15b734",
+              "kind": "frame",
+              "name": "Expected result",
+              "parentId": null,
+              "x": 0,
+              "y": 800,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Expected result",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

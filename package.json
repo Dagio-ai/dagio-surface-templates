@@ -1,0 +1,42 @@
+{
+  "name": "@dagio-ai/surface-templates",
+  "version": "0.1.0",
+  "description": "Dagio.ai's MIT-licensed catalogue of native Surface, Space and Workflow templates.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Dagio.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dagio-ai/dagio-surface-templates.git"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "exports": {
+    "./catalogue": "./dist/catalogue.json",
+    "./surfaces": "./dist/surfaces.json",
+    "./spaces": "./dist/spaces.json",
+    "./collections": "./dist/collections.json"
+  },
+  "files": [
+    "dist",
+    "surfaces",
+    "spaces",
+    "collections",
+    "catalogue.json",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test --test-concurrency=1 test/*.test.mjs",
+    "verify": "node scripts/verify.mjs",
+    "lint": "node scripts/lint.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "prepack": "node scripts/check-release.mjs"
+  },
+  "devDependencies": {
+    "prettier": "3.9.10"
+  }
+}

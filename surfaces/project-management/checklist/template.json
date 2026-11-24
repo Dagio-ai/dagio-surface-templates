@@ -1,0 +1,204 @@
+{
+  "id": "checklist",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "project-management",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Checklist",
+    "description": "Checks · Evidence · Final validation",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "projects",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-checklist",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "ListChecks",
+    "tone": "mint",
+    "headings": ["Checks", "Evidence", "Final validation"]
+  },
+  "artifact": {
+    "id": "checklist",
+    "title": "Checklist",
+    "description": "Checks · Evidence · Final validation",
+    "icon": "FileText",
+    "template": "checklist",
+    "fields": [
+      {
+        "key": "verifiedBy",
+        "label": "Verified by",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "checkedOn",
+        "label": "Checked on",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "outcome",
+        "label": "Outcome",
+        "type": "choice",
+        "required": true,
+        "options": ["Not assessed", "Passed", "Partially passed", "Failed"],
+        "defaultValue": "Not assessed"
+      }
+    ],
+    "instructions": "Use a rich text task list for individual checks. Record evidence and leave unchecked or unknown items unresolved; do not mark the whole checklist passed before all required checks are verified. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 580,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "bacae433-d958-4d25-a6ee-a6b6f336590c",
+              "kind": "frame",
+              "name": "Checks",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Checks",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "90945def-e671-4914-925a-05a4a3beb440",
+              "kind": "frame",
+              "name": "Evidence",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Evidence",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "9dc77c00-4f8a-4e55-8caf-4edf7887ee3c",
+              "kind": "frame",
+              "name": "Final validation",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Final validation",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

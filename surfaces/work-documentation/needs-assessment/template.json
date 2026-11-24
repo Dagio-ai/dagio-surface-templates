@@ -1,0 +1,246 @@
+{
+  "id": "needs-assessment",
+  "kind": "surface-template",
+  "version": "0.1.0",
+  "collection": "work-documentation",
+  "license": "MIT",
+  "publisher": "Dagio.ai",
+  "metadata": {
+    "title": "Needs assessment",
+    "description": "Context · Needs · Constraints · Success criteria",
+    "license": "MIT",
+    "publisherLabel": "Dagio.ai",
+    "category": "knowledge",
+    "icon": "FileText",
+    "releaseStage": "alpha",
+    "templateId": "dagio-surface-needs-assessment",
+    "templateVersion": "0.1.0",
+    "kind": "surface-template",
+    "spaces": ["data", "knowledge", "content"]
+  },
+  "presentation": {
+    "glyph": "Target",
+    "tone": "sand",
+    "headings": ["Context", "Needs", "Constraints", "Success criteria"]
+  },
+  "artifact": {
+    "id": "needs-assessment",
+    "title": "Needs assessment",
+    "description": "Context · Needs · Constraints · Success criteria",
+    "icon": "FileText",
+    "template": "needs-assessment",
+    "fields": [
+      {
+        "key": "requestedBy",
+        "label": "Requested by",
+        "type": "text",
+        "required": false
+      },
+      {
+        "key": "assessedOn",
+        "label": "Assessed on",
+        "type": "date",
+        "required": false
+      },
+      {
+        "key": "priority",
+        "label": "Priority",
+        "type": "choice",
+        "required": true,
+        "options": ["Low", "Normal", "High", "Urgent"],
+        "defaultValue": "Normal"
+      }
+    ],
+    "instructions": "Separate the underlying needs from proposed solutions and make success criteria observable. Use Fields for concise metadata and the titled Rich text objects for detailed content. Required Fields describe expected information; incomplete drafts may be saved. Ask for missing facts when needed; never invent people, dates, references or results. References identify sources and do not grant access. These Fields do not change Workmap execution state.",
+    "document": {
+      "type": "surface_canvas",
+      "schema_version": 6,
+      "mode": "page",
+      "resourceKind": "scene",
+      "componentDefinition": null,
+      "libraryDefinition": null,
+      "instances": [],
+      "assets": [],
+      "sourceRegions": [],
+      "dataObjects": [],
+      "pages": [
+        {
+          "id": "page-1",
+          "width": 960,
+          "height": 780,
+          "background": "#ffffff",
+          "nodes": [
+            {
+              "id": "87bdc12e-84c2-4a7c-9a2b-86e9a00ab5ad",
+              "kind": "frame",
+              "name": "Context",
+              "parentId": null,
+              "x": 0,
+              "y": 0,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Context",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "f3e45aa9-67c8-4bf3-b5ad-92a2137c1f14",
+              "kind": "frame",
+              "name": "Needs",
+              "parentId": null,
+              "x": 0,
+              "y": 200,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Needs",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "cc257993-a3a0-47e8-b55b-19a7465f16de",
+              "kind": "frame",
+              "name": "Constraints",
+              "parentId": null,
+              "x": 0,
+              "y": 400,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Constraints",
+                  "visible": true
+                }
+              }
+            },
+            {
+              "id": "4699f698-b4cc-449b-a124-13b2394b47cb",
+              "kind": "frame",
+              "name": "Success criteria",
+              "parentId": null,
+              "x": 0,
+              "y": 600,
+              "width": 960,
+              "height": 180,
+              "rotation": 0,
+              "opacity": 1,
+              "locked": false,
+              "pinned": false,
+              "fill": "#ffffff",
+              "strokeType": "solid",
+              "strokeColor": "#dce2e9",
+              "strokeOpacity": 1,
+              "strokeWidth": 1,
+              "layout": {
+                "kind": "free",
+                "gap": 20,
+                "padding": 0,
+                "columns": 1,
+                "align": "start",
+                "sizing": "fixed"
+              },
+              "pageBlock": {
+                "kind": "rich-text",
+                "content": {
+                  "type": "doc",
+                  "content": [
+                    {
+                      "type": "paragraph"
+                    }
+                  ]
+                },
+                "header": {
+                  "title": "Success criteria",
+                  "visible": true
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

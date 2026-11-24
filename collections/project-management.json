@@ -1,0 +1,123 @@
+{
+  "id": "project-management",
+  "title": "Project management",
+  "description": "Proportionate project scope, plans and optional operational registers.",
+  "templates": [
+    {
+      "kind": "surface-template",
+      "id": "project-brief"
+    },
+    {
+      "kind": "surface-template",
+      "id": "action-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "review"
+    },
+    {
+      "kind": "surface-template",
+      "id": "checklist"
+    },
+    {
+      "kind": "surface-template",
+      "id": "meeting-minutes"
+    },
+    {
+      "kind": "surface-template",
+      "id": "specification"
+    },
+    {
+      "kind": "surface-template",
+      "id": "decision"
+    },
+    {
+      "kind": "surface-template",
+      "id": "project-scope"
+    },
+    {
+      "kind": "surface-template",
+      "id": "business-case"
+    },
+    {
+      "kind": "surface-template",
+      "id": "project-management-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "budget-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "quality-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "resource-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "communication-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "procurement-plan"
+    },
+    {
+      "kind": "surface-template",
+      "id": "change-request"
+    },
+    {
+      "kind": "surface-template",
+      "id": "project-status"
+    },
+    {
+      "kind": "surface-template",
+      "id": "deliverable-acceptance"
+    },
+    {
+      "kind": "surface-template",
+      "id": "project-handover"
+    },
+    {
+      "kind": "surface-template",
+      "id": "project-closure"
+    },
+    {
+      "kind": "surface-template",
+      "id": "lessons-learned"
+    },
+    {
+      "kind": "space-template",
+      "id": "risks"
+    },
+    {
+      "kind": "space-template",
+      "id": "stakeholders"
+    },
+    {
+      "kind": "space-template",
+      "id": "issues"
+    },
+    {
+      "kind": "space-template",
+      "id": "assumptions"
+    },
+    {
+      "kind": "space-template",
+      "id": "decisions"
+    },
+    {
+      "kind": "space-template",
+      "id": "changes"
+    },
+    {
+      "kind": "space-template",
+      "id": "deliverables"
+    },
+    {
+      "kind": "space-template",
+      "id": "costs"
+    }
+  ]
+}
