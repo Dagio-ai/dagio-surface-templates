@@ -45,8 +45,19 @@
     "spaces/project-management/decisions/template.json",
     "spaces/project-management/changes/template.json",
     "spaces/project-management/deliverables/template.json",
-    "spaces/project-management/costs/template.json"
+    "spaces/project-management/costs/template.json",
+    "spaces/workflows/small-project/template.json",
+    "spaces/workflows/medium-project/template.json",
+    "spaces/workflows/large-project/template.json",
+    "spaces/workflows/content-project/template.json",
+    "spaces/workflows/software-project/template.json",
+    "spaces/workflows/event-project/template.json",
+    "spaces/workflows/physical-project/template.json"
   ],
-  "collections": ["collections/project-management.json", "collections/work-documentation.json"],
+  "collections": [
+    "collections/project-management.json",
+    "collections/work-documentation.json",
+    "collections/workflows.json"
+  ],
   "integrations": ["integrations/surface-core.json"]
 }

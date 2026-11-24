@@ -1,0 +1,35 @@
+{
+  "id": "workflows",
+  "title": "Workflow starting points",
+  "description": "Adaptable project workflows selected after scope clarification, by coordination needs and project type.",
+  "templates": [
+    {
+      "kind": "space-template",
+      "id": "small-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "medium-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "large-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "content-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "software-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "event-project"
+    },
+    {
+      "kind": "space-template",
+      "id": "physical-project"
+    }
+  ]
+}
